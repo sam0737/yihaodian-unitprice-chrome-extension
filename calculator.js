@@ -4,7 +4,7 @@
     var processed_key = 'unitprice_gkkfgadbepoc_processed';
     var price_unit = {}, money_unit = {};
 
-    var box_filter = 'li, div.productItemBoxIn';
+    var box_filter = 'li, div.productItemBoxIn, dl';
 
     var observer = new WebKitMutationObserver(function(mutations) {
         mutations.forEach(function(mutation) { 
@@ -105,7 +105,8 @@
     function extract_weight(box) {
         var desc = '';
         box.find('a').each(function (i, elem) {
-            desc += $(elem).text() + '\n';
+            var a = $(elem);
+            desc += (a.attr('title') || a.text()) + '\n';
         });
 
 
