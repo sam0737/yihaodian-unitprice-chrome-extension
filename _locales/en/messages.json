@@ -1,0 +1,10 @@
+{
+    "name": { "message": "YiHaoDian Unit Price" },
+    "description": { "message": "Show the unit price for products on YiHaodian.com. (一号店), allow easy price comparison among different packages for food and drink products." },
+    "price_title": { "message": "Quantity: $WEIGHT$$UNIT$",
+        "placeholders": {
+            "WEIGHT": { "content": "$1", "example": "102" },
+            "UNIT": { "content": "$2", "example": "Kg" }
+        }
+    }
+}

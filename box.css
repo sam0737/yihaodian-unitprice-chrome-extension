@@ -1,0 +1,9 @@
+.unitprice_gkkfgadbepoc_box {
+    position: absolute;
+    z-index: 5000;
+    border-left: 1pt solid rgb(255,0,0);
+    border-bottom: 1pt solid rgb(255,0,0);
+    margin-top: -5pt;
+    padding: 1pt 2pt;
+    background: rgba(255, 255, 255, 0.6);
+}

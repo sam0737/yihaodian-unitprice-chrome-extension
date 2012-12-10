@@ -1,0 +1,21 @@
+{
+    "name": { "message": "一号店商品单价換算 (YiHaoDian)" },
+    "description": { "message": "在一号店网站上，把每件商品以每克/升计的价格显示出来，方便比较各类食品饮料的独立包装、套装、家庭装等各包装间的价格。" },
+    "price_report": { "message": "¥$UNIT_PRICE$/$PRICE_UNIT$; $UNIT_MONEY$$MONEY_UNIT$/¥",
+        "placeholders": {
+            "WEIGHT": { "content": "$1", "example": "102" },
+            "PRICE": { "content": "$2", "example": "1.5" },
+            "UNIT_PRICE": { "content": "$3", "example": "0.5" },
+            "PRICE_UNIT": { "content": "$4", "example": "kg" },
+            "UNIT_MONEY": { "content": "$5", "example": "2" },
+            "MONEY_UNIT": { "content": "$6", "example": "g" }
+        }
+    },
+    "price_title": { "message": "数量: $WEIGHT$$UNIT$",
+        "placeholders": {
+            "WEIGHT": { "content": "$1", "example": "102" },
+            "UNIT": { "content": "$2", "example": "Kg" }
+        }
+    }
+
+}
